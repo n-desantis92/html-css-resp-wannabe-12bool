@@ -14,11 +14,6 @@
   padding: 10px;
 }
 
-.debug [class*="col-"] > .container [class*="col-"] {
-  border-color: white;
-  background-color: lightcoral;
-  height: 100%;
-}
 /* /Regole Debug */
 
 /* Framework */
@@ -26,7 +21,6 @@
   .container {
     max-width: 1170px;
     margin: 0 auto;
-    background-color: green;
   }
 
   .container::after {
